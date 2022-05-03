@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- metadata -->
+    <meta charset="utf-8">
+    <meta name="description" content="Movie in Javascript">
+    <meta name="keywords" content="immaculata, ics2o">
+    <meta name="author" content="Logan Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="fav/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <!-- title -->
+    <title>Movie in JS</title>
+        <!-- style -->
+         <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-red.min.css" /> 
+  </head>
+  <body>
+        <!-- Script -->
+    <script src="./js/script.js"></script>
+    
+    <h1>What rating of movie can I see?</h1>
+    <img src="images/cinema.png" alt="image">
+    <p>There is a high likelihood that you have been to a movie theatre alone. If this is true, you may have encountered a situation where you were unable to view the movie due to your age.</p>
+    <p>There is a solution. If you fill out this textfield with your age, you will learn the minimum age rating of a film that you can see alone without needing to do the incredibly simple maths.</p>
+              <p>
+      <form action="javascript: answer()">
+        <label for="age">Your age</label>
+        <input type="number" step="1" min="0" id="age" placeholder="Age"><br><br>
+                <!-- Accent-colored raised button with ripple -->
+<input type="submit" button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        		<!-- Create a space where the user information will be displayed -->
+		<div id="display-results">
+			<div id="answer">
+			</div>
+  </body>
+</html>
